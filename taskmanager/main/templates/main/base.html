@@ -32,13 +32,30 @@
             <li><a href="{% url 'lolkek' %}" class="nav-link px-2 text-black">LolKek</a></li>
         </ul>
         <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-warning me-2">Login</button>
-        <button type="button" class="btn btn-warning">Sign-up</button>
+            {% if user.is_authenticated %}
+            <button type="button" class="btn btn-danger me-2">
+                <a href="{% url 'logout' %}" style="color:inherit">Log-out</a>
+            </button>
+
+            {% endif %}
+            <button type="button" class="btn btn-outline-warning me-2">
+                <a href="/accounts/login" style="color:inherit">Log-in</a>
+            </button>
+            <button type="button" class="btn btn-warning">
+                <a href="/accounts/login" style="color:inherit">Sign-up</a>
+            </button>
+
       </div>
 
       </div>
     </div>
 <div class="container">
+     {% if user.is_authenticated %}
+        <p>Hi {{ user.username }}!</p>
+      {% else %}
+        <p>You are not logged in.</p>
+        <a href="{% url 'login' %}">Log In</a>
+      {% endif %}
     {% block content %}{% endblock %}
 </div>
 
