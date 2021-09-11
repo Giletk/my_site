@@ -1,0 +1,20 @@
+{%extends 'main/base.html'%}
+
+{% block title %}
+{{  Title  }}
+{% endblock %}
+
+{% block content %}
+    <h1>My to-do list</h1>
+    <p>Here I wil keep my private notes</p>
+    {% if tasks %}
+        {% for x in tasks %}
+            <div class="alert alert-warning mt-2">
+                <h3>{{x.title}}</h3>
+                <p>{{x.task}}</p>
+            </div>
+        {%  endfor %}
+    {% else %}
+        <p3>List is empty, all tasks are done!</p3>
+    {% endif %}
+{% endblock %}
