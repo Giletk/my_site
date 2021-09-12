@@ -26,10 +26,12 @@
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
            <li><a href="{% url 'home' %}" class="nav-link px-2 text-secondary">Home</a></li>
+            <li><a href="{% url 'about' %}" class="nav-link px-2 text-black">About</a></li>
+            {% if user.is_staff %}
            <li><a href="{% url 'todo' %}" class="nav-link px-2 text-black">TodoList</a></li>
             <li><a href="{% url 'create' %}" class="nav-link px-2 text-black">TaskCreation</a></li>
-            <li><a href="{% url 'about' %}" class="nav-link px-2 text-black">About</a></li>
             <li><a href="{% url 'lolkek' %}" class="nav-link px-2 text-black">LolKek</a></li>
+            {% endif %}
         </ul>
         <div class="col-md-3 text-end">
             {% if user.is_authenticated %}
