@@ -27,7 +27,10 @@ SECRET_KEY = 'django-insecure-+g30y937ivw!4to44u!tp!1=_$z@0+aqm%yrje-q)rnx9*r5mf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'giletk.pythonanywhere.com',
+    '127.0.0.1'
+]
 
 
 # Application definition

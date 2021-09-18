@@ -21,22 +21,25 @@
       .navbar .nav-link {
         color: #fff !important;
       }
+
     </style>
 </head>
 <body id="intro">
- <div class="container bg-dark pt-1 pb-1">
+
+ <div class="bg-image shadow-3-strong">
+    <div class="container bg-dark navbar mt-5 pt-1 pb-1">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-red text-decoration-none">
           <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-           <li><a href="{% url 'home' %}" class="nav-link px-2 text-light">Home</a></li>
-            <li><a href="{% url 'about' %}" class="nav-link px-2 text-light">About</a></li>
+           <li><a href="{% url 'home' %}" class="nav-link px-2 text-black">Home</a></li>
+            <li><a href="{% url 'about' %}" class="nav-link px-2 text-black">About</a></li>
             {% if user.is_staff %}
-           <li><a href="{% url 'todo' %}" class="nav-link px-2 text-light">TodoList</a></li>
-            <li><a href="{% url 'create' %}" class="nav-link px-2 text-light">TaskCreation</a></li>
-            <li><a href="{% url 'lolkek' %}" class="nav-link px-2 text-light">LolKek</a></li>
+           <li><a href="{% url 'todo' %}" class="nav-link px-2 text-black">TodoList</a></li>
+            <li><a href="{% url 'create' %}" class="nav-link px-2 text-black">TaskCreation</a></li>
+            <li><a href="{% url 'lolkek' %}" class="nav-link px-2 text-black">LolKek</a></li>
             {% endif %}
         </ul>
         <div class="col-md-3 text-end">
@@ -57,15 +60,15 @@
 
       </div>
     </div>
-<div class="container">
-     {% if user.is_authenticated %}
-        <p>Hi {{ user.username }}!</p>
-      {% else %}
-        <p>You are not logged in.</p>
-        <p>To log in click <a href="{% url 'login' %}">here</a></p>
-      {% endif %}
-    {% block content %}{% endblock %}
+    <div class="container">
+         {% if user.is_authenticated %}
+            <p>Hi {{ user.username }}!</p>
+          {% else %}
+            <p>You are not logged in.</p>
+            <p>To log in click <a href="{% url 'login' %}">here</a></p>
+          {% endif %}
+        {% block content %}{% endblock %}
+    </div>
 </div>
-
 </body>
 </html>

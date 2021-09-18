@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a9642c-6d40-4794-92b6-e96df21b3001" name="Default Changelist" comment="first  one">
+      <change afterPath="$PROJECT_DIR$/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/base2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taskmanager/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmanager/main/templates/main/Mountains.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/static/images/Mountains.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taskmanager/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmanager/taskmanager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/taskmanager/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,14 +43,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/taskmanager/main/static/css" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Denive\PycharmProjects\pythonProject\taskmanager\main\static\css" />
       <recent name="C:\Users\Denive\PycharmProjects\pythonProject\taskmanager\main\templates\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Denive\PycharmProjects\pythonProject\taskmanager\main\static\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -138,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631388091944</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="first  one">
+      <created>1631453345949</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631453345961</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
