@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47a9642c-6d40-4794-92b6-e96df21b3001" name="Default Changelist" comment="lol">
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/images/Mountain2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/images/New_York_City_at_nigt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/images/bananas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/images/ice_cave.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/images/ice_cave_dark.jpg" afterDir="false" />
+    <list default="true" id="47a9642c-6d40-4794-92b6-e96df21b3001" name="Default Changelist" comment="lol123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskmanager/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmanager/main/templates/main/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmanager/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmanager/main/templates/main/todo.html" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/todo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631972195812</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lol123">
+      <created>1633102844244</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1633102844244</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,7 +185,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first  one" />
     <MESSAGE value="lol" />
-    <option name="LAST_COMMIT_MESSAGE" value="lol" />
+    <MESSAGE value="lol123" />
+    <option name="LAST_COMMIT_MESSAGE" value="lol123" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
