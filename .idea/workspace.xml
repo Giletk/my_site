@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a9642c-6d40-4794-92b6-e96df21b3001" name="Default Changelist" comment="lol123">
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/chess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/js/jquery-3.6.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/js/particles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/js/particles.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/json/particles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/json/particlesjs-config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskmanager/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taskmanager/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskmanager/main/templates/main/lolkek.html" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/lolkek.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskmanager/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskmanager/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskmanager/taskmanager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/taskmanager/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633108391374</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="lol123">
+      <created>1638561838536</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1638561838536</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
