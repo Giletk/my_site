@@ -7,5 +7,6 @@ urlpatterns = [
     path('about', views.about, name="about"),
     path('todolist', views.todo, name="todo"),
     path('taskcreation', views.create, name="create"),
-    path('lolkek', views.lolkek, name="lolkek")
+    path('lolkek', views.lolkek, name="lolkek"),
+    path('chess', views.chess, name="chess")
 ]

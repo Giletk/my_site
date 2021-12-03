@@ -33,3 +33,7 @@ def todo(request):
 
 def lolkek(request):
     return render(request, 'main/lolkek.html', {'Title': "lol"})
+
+
+def chess(request):
+    return render(request, 'main/chess.html')

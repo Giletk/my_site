@@ -10,23 +10,39 @@
 
     </head>
     <body bgcolor=#fc7777>
-    <div class="container">
+    <div class="container bg-dark pt-1 pb-1">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-red text-decoration-none">
           <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-           <li><a href="{% url 'home' %}" class="nav-link px-2 text-secondary">Home</a></li>
-           <li><a href="{% url 'todo' %}" class="nav-link px-2 text-black">TodoList</a></li>
-            <li><a href="{% url 'create' %}" class="nav-link px-2 text-black">TaskCreation</a></li>
-            <li><a href="{% url 'about' %}" class="nav-link px-2 text-black">About</a></li>
-            <li><a href="{% url 'lolkek' %}" class="nav-link px-2 text-black">LolKek</a></li>
+           <li><a href="{% url 'home' %}" class="nav-link px-2 text-light">Home</a></li>
+            <li><a href="{% url 'about' %}" class="nav-link px-2 text-light">About</a></li>
+            {% if user.is_staff %}
+           <li><a href="{% url 'todo' %}" class="nav-link px-2 text-light">TodoList</a></li>
+            <li><a href="{% url 'create' %}" class="nav-link px-2 text-light">TaskCreation</a></li>
+            <li><a href="{% url 'lolkek' %}" class="nav-link px-2 text-light">LolKek</a></li>
+            {% endif %}
         </ul>
         <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-warning me-2">Login</button>
-        <button type="button" class="btn btn-warning">Sign-up</button>
+            {% if user.is_authenticated %}
+            <button type="button" class="btn btn-danger me-2">
+                <a href="{% url 'logout' %}" style="color:inherit">Log-out</a>
+            </button>
+
+            {% endif %}
+            <button type="button" class="btn btn-outline-warning me-2">
+                <a href="/accounts/login" style="color:inherit">Log-in</a>
+            </button>
+            <button type="button" class="btn btn-warning">
+                <a href="/accounts/signup" style="color:inherit">Sign-up</a>
+            </button>
+
       </div>
+
+      </div>
+    </div>
 
       </div>
     </div>
