@@ -26,18 +26,18 @@
       }
       #particles-js {
         height: 100%
-        background: #000000
+        background-color: #005700
 
       }
     </style>
 </head>
-<body>
-<div id="particles-js">
+<body id="bg2">
+<div id="particles-js" >
         <script src="https://cdn.jsdelivr.net/npm/particlesjs@2.2.3/dist/particles.min.js"></script>
         <script type="text/javascript" src="{% static 'js/particles.js'%}"></script>
         <script type="text/javascript" src="{% static  'js/jquery-3.6.0.js' %}"></script>
         <script>
-            particlesJS.load('particles-js', "static/json/particlesjs-config.json", function() {
+            particlesJS.load('particles-js', "static/json/particles.json", function() {
                 console.log('particles.js loaded - callback');
             });
         </script>

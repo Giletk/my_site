@@ -5,6 +5,12 @@
     },
     "color": {
       "value": "#000000"
+    },
+    "shape": {
+      "type": "image",
+      "image": {
+        "src": "static/images/durka.png"
+      }
     }
   }
 }

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47a9642c-6d40-4794-92b6-e96df21b3001" name="Default Changelist" comment="lol123">
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/js/jquery-3.6.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/js/particles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/js/particles.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/json/particles.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/json/particlesjs-config.json" afterDir="false" />
+    <list default="true" id="47a9642c-6d40-4794-92b6-e96df21b3001" name="Default Changelist" comment="adding particles.js">
+      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/images/durka.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmanager/main/static/json/particles.json" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/static/json/particles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmanager/main/static/json/particlesjs-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/static/json/particlesjs-config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taskmanager/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638561838536</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding particles.js">
+      <created>1638562567022</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1638562567022</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +208,8 @@
     <MESSAGE value="first  one" />
     <MESSAGE value="lol" />
     <MESSAGE value="lol123" />
-    <option name="LAST_COMMIT_MESSAGE" value="lol123" />
+    <MESSAGE value="adding particles.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding particles.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
