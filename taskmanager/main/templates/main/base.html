@@ -7,6 +7,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
     <style>
@@ -52,6 +54,8 @@
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                    <li><a href="{% url 'home' %}" class="nav-link px-2 text-light">Home</a></li>
                     <li><a href="{% url 'about' %}" class="nav-link px-2 text-light">About</a></li>
+                    <li><a href="{% url 'statistics' %}" class="nav-link px-2 text-light">Stats</a></li>
+                    <li><a href="{% url 'pricelist' %}" class="nav-link px-2 text-light">Pricelist</a></li>
                     {% if user.is_staff %}
                    <li><a href="{% url 'todo' %}" class="nav-link px-2 text-light">TodoList</a></li>
                     <li><a href="{% url 'create' %}" class="nav-link px-2 text-light">TaskCreation</a></li>

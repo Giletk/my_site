@@ -37,3 +37,11 @@ def lolkek(request):
 
 def chess(request):
     return render(request, 'main/chess.html')
+
+
+def pricelist(request):
+    return render(request, 'main/pricelist.html')
+
+
+def statistics(request):
+    return render(request, 'main/statistics.html')
