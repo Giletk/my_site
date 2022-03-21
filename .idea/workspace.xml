@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a9642c-6d40-4794-92b6-e96df21b3001" name="Default Changelist" comment="adding particles.js">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startbootstrap-heroic-features-gh-pages/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startbootstrap-heroic-features-gh-pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/pricelist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/statistics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskmanager/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskmanager/main/templates/main/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskmanager/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/templates/main/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskmanager/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskmanager/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638565919760</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="adding particles.js">
+      <created>1647797763111</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1647797763111</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
